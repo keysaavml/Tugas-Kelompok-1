@@ -1,0 +1,8 @@
+pemeriksaan,baris
+Alasan terisi tetapi status bukan Batal,0
+Status Batal tetapi alasan kosong,0
+Dikembalikan > dibeli,0
+num_product_categories != jumlah kategori di teks,0
+Pesanan dengan barang dikembalikan (>0),157
+Total Pembayaran = 0,2892
+Perkiraan ongkir = ongkir dibayar + potongan,17937

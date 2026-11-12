@@ -1,0 +1,12 @@
+# Catatan Cleaning
+
+| Langkah | Baris sebelum | Baris sesudah | Alasan |
+|---|---|---|---|
+| Rapikan spasi kolom teks | 20848 | 20848 | Mencegah satu kategori tercatat ganda karena spasi. |
+| Hapus baris duplikat penuh | 20848 | 20848 | 0 baris duplikat. |
+| Ubah ke datetime + penanda tanggal_kosong | 20848 | 20848 | 1980 baris kosong (umumnya file bulanan tanpa kolom tanggal). |
+| Buat periode/tahun/bulan dari source_file | 20848 | 20848 | Memulihkan bulan untuk baris tanpa tanggal. Gagal terbaca: 0 baris. |
+| Standardisasi Status Pesanan | 20848 | 20848 | 11 varian -> 4 kelompok; target = Selesai vs Batal. |
+| Standardisasi Alasan Pembatalan | 20848 | 20848 | 18 varian -> 8 alasan baku + pihak pembatal (Pembeli/Sistem/Penjual) dari awalan teks. |
+| Standardisasi Opsi Pengiriman | 20848 | 20848 | 45 varian -> 28 layanan (bagian setelah tanda '-'); kurir dikelompokkan SPX, JNE, J&T, Instan/lainnya, Belum ditentukan. |
+| Kolom bantu EDA | 20848 | 20848 | kategori_utama, ongkir_gratis, pembayaran_nol, ongkir_per_kg, outlier_pembayaran. Outlier hanya ditandai. |
